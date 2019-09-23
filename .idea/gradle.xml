@@ -9,7 +9,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ARVideo" />
+            <option value="$PROJECT_DIR$/CatFacts" />
+            <option value="$PROJECT_DIR$/DogImages" />
             <option value="$PROJECT_DIR$/FExplorer" />
+            <option value="$PROJECT_DIR$/HeartRate" />
+            <option value="$PROJECT_DIR$/LocationApp" />
+            <option value="$PROJECT_DIR$/MyContact" />
+            <option value="$PROJECT_DIR$/NoteApp" />
+            <option value="$PROJECT_DIR$/Notification" />
+            <option value="$PROJECT_DIR$/SensorApp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

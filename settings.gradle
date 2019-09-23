@@ -1,2 +1,2 @@
-include ':FExplorer', ':ARVideo'
+include ':FExplorer', ':ARVideo', ':LocationApp', 'NoteApp', ':DogImages', ':Notification', ':SensorApp', ':CatFacts', ':MyContact', ':HeartRate'
 rootProject.name='AndroidSensorBasedCourse'

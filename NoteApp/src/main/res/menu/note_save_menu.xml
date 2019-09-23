@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Save private"
+        android:id="@+id/save_private_menu"></item>
+    <item
+        android:title="Save public"
+        android:id="@+id/save_public_menu"></item>
+
+    <item
+        android:title="Close"
+        android:id="@+id/close_note_menu"></item>
+
+</menu>
