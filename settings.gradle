@@ -1,0 +1,2 @@
+include ':FExplorer', ':ARVideo'
+rootProject.name='AndroidSensorBasedCourse'

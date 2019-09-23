@@ -1,0 +1,229 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.w4_d4_5_arlab"
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // ARCore
+    implementation 'com.google.ar:core:1.12.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.12.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+}
+
+
+sceneform.asset('sampledata/Glass/Glass.fbx',
+        'default',
+        'sampledata/Glass/Glass.sfa',
+        'src/main/assets/Glass')
+
+sceneform.asset('sampledata/Chair/OfficChair1.fbx',
+        'default',
+        'sampledata/Chair/OfficChair1.sfa',
+        'src/main/assets/OfficChair1')
+
+sceneform.asset('sampledata/Sofa/Sofa1.fbx',
+        'default',
+        'sampledata/Sofa/Sofa1.sfa',
+        'src/main/assets/Sofa1')
+
+sceneform.asset('sampledata/Table/Wood_Table.obj',
+        'default',
+        'sampledata/Table/Wood_Table.sfa',
+        'src/main/assets/Wood_Table')
+
+
+
+sceneform.asset('sampledata/Lamp/OldLamp1.fbx',
+        'default',
+        'sampledata/Lamp/OldLamp1.sfa',
+        'src/main/assets/OldLamp1')
+
+sceneform.asset('sampledata/NightStand/NightStand1.fbx',
+        'default',
+        'sampledata/NightStand/NightStand1.sfa',
+        'src/main/assets/NightStand1')
+
+sceneform.asset('sampledata/Table/Table1.obj',
+        'default',
+        'sampledata/Table/Table1.sfa',
+        'src/main/assets/Table1')
+
+sceneform.asset('sampledata/Table/CoffeeTable.obj',
+        'default',
+        'sampledata/Table/CoffeeTable.sfa',
+        'src/main/assets/CoffeeTable')
+
+sceneform.asset('sampledata/Sofa/Sofa2.obj',
+        'default',
+        'sampledata/Sofa/Sofa2.sfa',
+        'src/main/assets/Sofa2')
+
+sceneform.asset('sampledata/Sofa/Seat.obj',
+        'default',
+        'sampledata/Sofa/Seat.sfa',
+        'src/main/assets/Seat')
+
+sceneform.asset('sampledata/Table/Table3.obj',
+        'default',
+        'sampledata/Table/Table3.sfa',
+        'src/main/assets/Table3')
+
+sceneform.asset('sampledata/Misc/ClothHanger.obj',
+        'default',
+        'sampledata/Misc/ClothHanger.sfa',
+        'src/main/assets/ClothHanger')
+
+sceneform.asset('sampledata/Chair/Stoolchair.obj',
+        'default',
+        'sampledata/Chair/Stoolchair.sfa',
+        'src/main/assets/Stoolchair')
+
+sceneform.asset('sampledata/Chair/Chair.obj',
+        'default',
+        'sampledata/Chair/Chair.sfa',
+        'src/main/assets/Chair')
+
+sceneform.asset('sampledata/Chair/Chair2.obj',
+        'default',
+        'sampledata/Chair/Chair2.sfa',
+        'src/main/assets/Chair2')
+
+sceneform.asset('sampledata/WardrobeAndDrawers/Cabinet.obj',
+        'default',
+        'sampledata/WardrobeAndDrawers/Cabinet.sfa',
+        'src/main/assets/Cabinet')
+
+sceneform.asset('sampledata/Table/Table4.obj',
+        'default',
+        'sampledata/Table/Table4.sfa',
+        'src/main/assets/Table4')
+
+sceneform.asset('sampledata/Tree/FlowerPot/FlowerPot.obj',
+        'default',
+        'sampledata/Tree/FlowerPot/FlowerPot.sfa',
+        'src/main/assets/FlowerPot')
+
+sceneform.asset('sampledata/Tree/ChristmasTree/christmas_tree.obj',
+        'default',
+        'sampledata/Tree/ChristmasTree/christmas_tree.sfa',
+        'src/main/assets/christmas_tree')
+
+sceneform.asset('sampledata/Misc/samsung_tv.obj',
+        'default',
+        'sampledata/Misc/samsung_tv.sfa',
+        'src/main/assets/samsung_tv')
+
+sceneform.asset('sampledata/WardrobeAndDrawers/Drawer1/Drawer1.obj',
+        'default',
+        'sampledata/WardrobeAndDrawers/Drawer1/Drawer1.sfa',
+        'src/main/assets/Drawer1')
+
+sceneform.asset('sampledata/Bed/bed1.obj',
+        'default',
+        'sampledata/Bed/bed1.sfa',
+        'src/main/assets/bed1')
+
+sceneform.asset('sampledata/WardrobeAndDrawers/kids_shelves.obj',
+        'default',
+        'sampledata/WardrobeAndDrawers/kids_shelves.sfa',
+        'src/main/assets/kids_shelves')
+
+sceneform.asset('sampledata/Chair/KitchenStool/kitchen_stool.obj',
+        'default',
+        'sampledata/Chair/KitchenStool/kitchen_stool.sfa',
+        'src/main/assets/kitchen_stool')
+
+sceneform.asset('sampledata/Tree/tree.obj',
+        'default',
+        'sampledata/Tree/tree.sfa',
+        'src/main/assets/tree')
+
+sceneform.asset('sampledata/Tree/pine/pine.obj',
+        'default',
+        'sampledata/Tree/pine/pine.sfa',
+        'src/main/assets/pine')
+
+sceneform.asset('sampledata/Tree/birch/birch.obj',
+        'default',
+        'sampledata/Tree/birch/birch.sfa',
+        'src/main/assets/birch')
+
+sceneform.asset('sampledata/Tree/quakingAspen/quakingAspen.obj',
+        'default',
+        'sampledata/Tree/quakingAspen/quakingAspen.sfa',
+        'src/main/assets/quakingAspen')
+
+sceneform.asset('sampledata/Tree/palm/palm.obj',
+        'default',
+        'sampledata/Tree/palm/palm.sfa',
+        'src/main/assets/palm')
+
+sceneform.asset('sampledata/Tree/fanPalm/fanPalm.obj',
+        'default',
+        'sampledata/Tree/fanPalm/fanPalm.sfa',
+        'src/main/assets/fanPalm')
+
+sceneform.asset('sampledata/Street/traffic_light_ped/traffic_light_ped.obj',
+        'default',
+        'sampledata/Street/traffic_light_ped/traffic_light_ped.sfa',
+        'src/main/assets/traffic_light_ped')
+
+sceneform.asset('sampledata/Misc/barbecue/barbecue.obj',
+        'default',
+        'sampledata/Misc/barbecue/barbecue.sfa',
+        'src/main/assets/barbecue')
+
+sceneform.asset('sampledata/Misc/bench/bench.obj',
+        'default',
+        'sampledata/Misc/bench/bench.sfa',
+        'src/main/assets/bench')
+
+sceneform.asset('sampledata/Misc/TrashCan/TrashCan.obj',
+        'default',
+        'sampledata/Misc/TrashCan/TrashCan.sfa',
+        'src/main/assets/TrashCan')
+
+sceneform.asset('sampledata/Misc/Fridge/Fridge.obj',
+        'default',
+        'sampledata/Misc/Fridge/Fridge.sfa',
+        'src/main/assets/Fridge')
+
+sceneform.asset('sampledata/Sofa/Sofa.obj',
+        'default',
+        'sampledata/Sofa/Sofa.sfa',
+        'src/main/assets/Sofa')

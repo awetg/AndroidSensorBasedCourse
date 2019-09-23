@@ -1,0 +1,81 @@
+{
+  materials: [
+    {
+      name: 'fusta_llit',
+      parameters: [
+        {
+          baseColor: 'rojiza',
+        },
+        {
+          baseColorTint: [
+            0.782138,
+            0.61677899999999997,
+            0.418346,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.225719,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'sobrecolchon_patron1.jpg.001',
+      parameters: [
+        {
+          baseColor: 'patron1',
+        },
+        {
+          baseColorTint: [
+            0.649339,
+            0.64941300000000002,
+            0.59389899999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Bed/bed1.obj',
+    name: 'bed1',
+    recenter: 'root',
+    scale: 0.90277399999999997,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Bed/patron1.jpg',
+      name: 'patron1',
+      pipeline_name: 'patron1.jpg',
+    },
+    {
+      file: 'sampledata/Bed/rojiza.jpg',
+      name: 'rojiza',
+      pipeline_name: 'rojiza.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

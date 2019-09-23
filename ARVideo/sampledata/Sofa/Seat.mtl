@@ -1,0 +1,32 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 27.07.2019 13:12:15
+
+newmtl fabric
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8941 0.7843 0.8784
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\SeatTex\cloth_03.jpg
+	map_Kd D:\SeatTex\cloth_03.jpg
+	map_bump -bm 0.3000 D:\SeatTex\cloth_03.jpg
+	bump -bm 0.3000 D:\SeatTex\cloth_03.jpg
+
+newmtl st_gold
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9451 0.7725 0.4078
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\SeatTex\Metal G6.jpg
+	map_Kd D:\SeatTex\Metal G6.jpg
