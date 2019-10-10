@@ -12,12 +12,14 @@
             <option value="$PROJECT_DIR$/CatFacts" />
             <option value="$PROJECT_DIR$/DogImages" />
             <option value="$PROJECT_DIR$/FExplorer" />
-            <option value="$PROJECT_DIR$/HeartRate" />
+            <option value="$PROJECT_DIR$/FinPresdents" />
+            <option value="$PROJECT_DIR$/HearRate" />
             <option value="$PROJECT_DIR$/LocationApp" />
             <option value="$PROJECT_DIR$/MyContact" />
             <option value="$PROJECT_DIR$/NoteApp" />
             <option value="$PROJECT_DIR$/Notification" />
             <option value="$PROJECT_DIR$/SensorApp" />
+            <option value="$PROJECT_DIR$/voicerecorder" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

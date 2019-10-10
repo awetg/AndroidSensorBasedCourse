@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity(), LocationListener {
 
         // setupo map view
         map.setTileSource(TileSourceFactory.MAPNIK)
-        map.setBuiltInZoomControls(false)
+        //map.setBuiltInZoomControls(false)
         map.setMultiTouchControls(true)
         map.controller.setZoom(9.5)
 
